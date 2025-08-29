@@ -98,3 +98,6 @@
 </details>
 
 #### Java 实现
+In java we would have created a product class, with all the name/price/stock as its fields. Then instead of an array of Products, we would create a Product repository to store the Product objects. <br><br>
+Next we will create a Product service, similar to the functions in our expressjs implementation. The services will be in charge of the program logic. <br><br>
+Finally we create a ProductController as the entrypoint to our springboot application. The Controller will be in charge of parsing the request parameters and passing it to Product serivce. After all the processing is done, the Controller will get the results from the services and put them in a proper format before sending them back to the client.
